@@ -8,7 +8,7 @@ const FTP_HOST = process.env.FTP_HOST;
 const FTP_USER = process.env.FTP_USER;
 const FTP_PASSWORD = process.env.FTP_PASSWORD;
 const FTP_DIR = 'upload';  // Conservé comme dans le code original
-const BASE_URL = 'http://m4ckwwswggwo8c8g08gwsscc.82.112.242.233.sslip.io/afficheimage/image';  // Conservé comme dans le code original
+const BASE_URL = 'https://m4ckwwswggwo8c8g08gwsscc.duckdns.org/afficheimage/image';  // Conservé comme dans le code original
 
 /**
  * Fonction pour télécharger un fichier avec réessais automatiques
@@ -126,3 +126,4 @@ const UploadImage = (req, res, next) => {
 
 
 module.exports = UploadImage;
+
